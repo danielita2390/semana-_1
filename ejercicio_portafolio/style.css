@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primario: #17ead9;
+    --secundario: #6078ea;
+    --terciario: #ecedee;
+    --cuarto: #000000;
+    --margen-cajas: 20px;
+    --bordes: 2px solid #555555;
+    --radio-bordes: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Lora", serif;
+    font-size: 67px;
+    color: var(--terciario);
+    font-weight: 300;
+    line-height: 1.15;
+}
+
+h2{
+    font-family: "Lora", serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+ul, li{
+    list-style: none;
+}
+
+p{
+    font-family: "Rubik", serif;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:var(--secundario);
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around; /* eje x */
+    align-items: center; /* eje y */
+}
+
+header img#logo{
+    height: 30px;
+}
+
+header nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header li a{
+    color: var(--terciario);
+    font-family: "Poppins", sans-serif;
+}
+
+header li a:hover{
+color: var(--primario);
+}
+
+section#perfil{
+    height: auto;
+    background: linear-gradient(#6078ea, #17ead9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-top: 80px;
+    color: var(--terciario);
+}
+
+section#perfil .area { 
+    width: 800px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+   }
+
+section#perfil button{
+    border: var(--secundario);
+    padding: 10px 20px;
+    background-color:var(--secundario);
+    margin-top: 30px;
+    border-radius: var(--radio-bordes);
+    color: var(--terciario);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+section#perfil button:hover{
+    background-color:var(--primario);
+}
+
+
+
+
+
