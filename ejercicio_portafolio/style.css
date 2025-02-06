@@ -47,6 +47,8 @@ p{
 }
 
 
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -106,12 +108,62 @@ section#perfil button{
     color: var(--terciario);
     letter-spacing: 2px;
     cursor: pointer;
+    margin-bottom: 170px;
 }
 
 section#perfil button:hover{
     background-color:var(--primario);
 }
 
+section#servicios{
+    padding: 40px 10px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#servicios .servicios_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    gap: 50px;
+  
+}
+
+section#servicios .produccion_audiovisual{
+    background-color: var(--terciario);
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    height: 50vh;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transition: all 400ms ease; 
+}
+
+
+section#servicios .produccion_podcast{
+    background-color: var(--terciario);
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    height: 50vh;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transition: all 400ms ease; 
+}
+
+section#servicios .fotografia{
+    background-color: var(--terciario);
+    margin-left: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    height: 50vh;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transition: all 400ms ease; 
+}
 
 
 
