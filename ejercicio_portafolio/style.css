@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+  
+
 :root{
     --primario: #17ead9;
     --secundario: #6078ea;
@@ -30,18 +32,12 @@ h1{
 
 h2{
     font-family: "Rubik", serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 200;
-}
-
-h3{
-    font-family: "Rubik", serif;
     font-size: 25px;
     font-weight: 200;
     color: #374252;
-   
 }
+
+
 
 ul, li{
     list-style: none;
@@ -150,7 +146,6 @@ section#servicios .servicios_1{
 
 section#servicios .produccion_audiovisual{
     text-align: left;
-    font-family: "Rubik", serif;
     height: 60vh;
     width: 25vw;
     background: #fff;
@@ -163,7 +158,6 @@ section#servicios .produccion_audiovisual{
 
 section#servicios .produccion_podcast{
     text-align: left;
-    font-family: ru;
     height: 60vh;
     width: 25vw;
     background: #fff;
@@ -176,7 +170,6 @@ section#servicios .produccion_podcast{
 
 section#servicios .fotografia{
     text-align: left;
-    font-family: "Rubik", serif;
     height: 60vh;
     width: 25vw;
     background: #fff;
@@ -201,14 +194,42 @@ padding: 20px 100px;
 }
 
 
-.lnr-cámara-video {
-        color: #0F52BA;
-        font-size: 40px;
-        font-family: 'camera-video, video2' !important;
-        speak: none;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
+/*
+.icon-presentation:before {
+    content: "\e00e";
+    font-size: 20px;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icon-presentation' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}*/
+
+#impacto_social{
+    margin-top: 70px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-family: "Rubik", serif;
+    line-height: 1.8;
+    color: #7e8890;
+}
+
+
+.area_items{
+    padding: 0px 4% 0 15%;
+}
+
+#impacto_social img{
+    width: 60%;
 }
