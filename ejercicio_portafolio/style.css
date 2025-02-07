@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
@@ -23,7 +21,7 @@ a{
 }
 
 h1{
-    font-family: "Lora", serif;
+    font-family: "Rubik", serif;
     font-size: 67px;
     color: var(--terciario);
     font-weight: 300;
@@ -31,22 +29,23 @@ h1{
 }
 
 h2{
-    font-family: "Lora", serif;
+    font-family: "Rubik", serif;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 200;
 }
 
+h3{
+    font-family: "Rubik", serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: #374252;
+   
+}
 
 ul, li{
     list-style: none;
 }
-
-p{
-    font-family: "Rubik", serif;
-}
-
-
 
 
 header{
@@ -70,7 +69,7 @@ header nav li{
 
 header li a{
     color: var(--terciario);
-    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", serif;
 }
 
 header li a:hover{
@@ -88,6 +87,15 @@ section#perfil{
     justify-content: center;
     padding-top: 80px;
     color: var(--terciario);
+}
+
+section#perfil p{
+    line-height: 1.55;
+    color: var(--terciario);
+    font-weight: 300;
+    font-size: 20px;
+
+
 }
 
 section#perfil .area { 
@@ -115,56 +123,81 @@ section#perfil button:hover{
     background-color:var(--primario);
 }
 
+
 section#servicios{
-    padding: 40px 10px;
-    position: relative;
-    z-index: 2;
+    background: #ecedee;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    height: 90vh;
 }
 
 section#servicios .servicios_1{
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    gap: 50px;
-  
+    margin-top: -124px;
+    padding: 50px;
+    margin-bottom: 30px;
+    gap: 30px;
+    font-weight: 300;
+    font-family: "Rubik", serif;
+    line-height: 1.8;
+    color: #7e8890;
+
 }
 
 section#servicios .produccion_audiovisual{
-    background-color: var(--terciario);
-    margin-left: 20px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    height: 50vh;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transition: all 400ms ease; 
+    text-align: left;
+    font-family: "Rubik", serif;
+    height: 60vh;
+    width: 25vw;
+    background: #fff;
+    box-shadow: 18px 17px 104px -24px rgba(0, 0, 0, .1);
+    transition: all 400ms ease;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
-
 section#servicios .produccion_podcast{
-    background-color: var(--terciario);
-    margin-left: 20px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    height: 50vh;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transition: all 400ms ease; 
+    text-align: left;
+    font-family: ru;
+    height: 60vh;
+    width: 25vw;
+    background: #fff;
+    box-shadow: 18px 17px 104px -24px rgba(0, 0, 0, .1);
+    transition: all 400ms ease;
+    padding-left: 30px;
+    padding-right: 30px;
+  
 }
 
 section#servicios .fotografia{
-    background-color: var(--terciario);
-    margin-left: 20px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    height: 50vh;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transition: all 400ms ease; 
+    text-align: left;
+    font-family: "Rubik", serif;
+    height: 60vh;
+    width: 25vw;
+    background: #fff;
+    box-shadow: 18px 17px 104px -24px rgba(0, 0, 0, .1);
+    transition: all 400ms ease;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
 }
 
+.btn{
+border: 1px solid #4963e6;
+background:var(--secundario);
+color: #fff;
+border-radius: 4px;
+font-size: 18px;
+padding: 20px 100px;
+}
 
+.btn:hover{
+    background-color:var(--primario);
+}
 
 
