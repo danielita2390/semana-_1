@@ -90,8 +90,6 @@ section#perfil p{
     color: var(--terciario);
     font-weight: 300;
     font-size: 20px;
-
-
 }
 
 section#perfil .area { 
@@ -227,9 +225,189 @@ padding: 20px 100px;
 
 
 .area_items{
-    padding: 0px 4% 0 15%;
+    margin-left: 20%;
 }
 
 #impacto_social img{
     width: 60%;
+    margin-right: 137px;
+}
+
+#impacto_social p{
+    padding-right: 304px;
+}
+
+#valores{
+    margin-top: 160px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-family: "Rubik", serif;
+    line-height: 1.8;
+    color: #7e8890;
+}
+
+.creencias{
+    margin-right: 20%;
+}
+
+
+#valores img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -6%;
+}
+
+
+section#formulario{
+    height: auto;
+    background-color: var(--terciario);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+ 
+}
+
+.datos-personales h2{
+    text-align: left;
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: "Rubik", serif;
+    line-height: 1.8;
+    color: #7e8890;
+    
+}
+
+
+.datos-personales p{
+    margin-top: 20px;
+    color: var(--terciario);
+    font-weight: 300;
+    font-family: "Rubik", serif;
+    line-height: 1.8;
+    color: #7e8890;
+}
+
+.datos-personales{
+    margin-left: 150px;
+}
+
+#imagen-dani img{
+    width: 500px;
+    margin-right: 109px;
+    margin-top: 344px;
+    translate: 0 133px;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.form input{
+    padding: 15px;
+}
+
+ .form input, .form textarea{
+     display: flex;
+     width:50%;
+     line-height: 28px;
+     border:2px solid var(--secundario);
+     border-radius: var(--radio-bordes);
+ }
+
+
+ label{
+    font-family: "Rubik", serif;
+    font-size: 14px;
+    color:  #7e8890;
+ }
+
+ textarea{
+    translate:  0% 10%;
+ }
+ 
+ .form textarea{
+     min-height: 200px;
+     padding: 21px;
+ }
+ 
+
+.form input{
+    translate:  0% 44%;
+ }
+
+ .form .cta-a{
+    border: 1px solid #4963e6;
+    background: var(--secundario);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 20px 100px;
+}
+ 
+
+.form .cta-a:hover{
+    background-color:var(--primario);
+}
+
+.area_footer{
+    height: auto;
+    background: var(--secundario);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+
+.redes-sociales{
+    margin-top: 41px;
+}
+
+.redes-sociales ul{
+     display: flex;
+     justify-content: center;
+}
+
+.social-logo{
+    width: 150px;
+    padding: 35px;
+    transition: all 400ms ease;
+}
+
+.social-logo:hover{
+    transform: translateY(-4%);
+}
+
+.footer-creds{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.creditos .footer-creds p{
+    font-size: 20px;
+    color: var(--terciario);
+}
+
+
+#wsp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    z-index: 100;
+    transition: all 300ms ease;
+}
+
+#wsp:hover{
+    transform: translateY(-10%);
 }
